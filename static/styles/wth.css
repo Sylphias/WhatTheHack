@@ -1,32 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-/*<!-----navbar section------------->*/
-/*.navbar{
-  padding: 0px !important;
-  border:none !important;
-  border-radius: 0px !important;
-  margin-bottom:0px !important;
-}
 
-.navbar-inverse{
-  margin:0px !important;
-  padding-bottom:20px;
+.navbar-logo{
+  width:100%;
 }
-
-.navbar-container{
-  height:50px;
-  width: 100%;
-  background-color: #2f2521;
-}
-
-@media  (max-width: 1000px) {
-   .collapse {
-       display: none !important;
-   }
-}*/
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
-    color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  width:200px;
+  padding-top: 5px;
 }
 #custom-bootstrap-menu.navbar-default {
     padding-top: 10px;
@@ -66,7 +48,10 @@
     background-color: #2f2521;
 }
 
-
+.full {
+  min-height: 75%;
+  height: 75%;
+}
 
 /*<!---- Landing Page Section ---->*/
 .landing-section{
@@ -75,7 +60,7 @@
   height:100vh !important;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-top: 100px;
 }
 
 /*For the WHAT THE HACK words*/
@@ -83,7 +68,6 @@
   top:100px;
   height:25vh;
   display: flex;
-  margin-top:-300px;
   justify-content: center;    
 }
 
@@ -119,4 +103,4 @@
   color: white;
   width:0%;
   overflow:hidden;
-}npm 
+}

@@ -15,34 +15,7 @@
 
 </head>
 <body>
-<div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
-  <div class="container-fluid">
-    <div class="navbar-header"><a class="navbar-brand" href="#">Brand</a>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-        </button>
-    </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class=" collapse navbar-collapse navbar-menubuilder " id="nav-items" >
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Register</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">What Is What The Hack</a></li>
-            <li><a href="#">Problems</a></li>
-            <li><a href="#">Prizes</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Sponsors</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-  </div>
-	<div class="landing-section container-fluid">
-    {% include 'main_logo.html' %}
-</div>
-
+{% include 'navbar.html' %}
+{% include 'main_logo.html' %}
 </body>
 </html>

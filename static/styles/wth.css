@@ -48,19 +48,16 @@
     background-color: #2f2521;
 }
 
-.full {
-  min-height: 75%;
-  height: 75%;
-}
 
 /*<!---- Landing Page Section ---->*/
 .landing-section{
-  font-family: 'Montserrat', sans-serif;
   background-color: #2f2521;
   height:100vh !important;
-  display: flex;
-  justify-content: center;
   padding-top: 100px;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; 
+  flex-direction: column;
 }
 
 /*For the WHAT THE HACK words*/
@@ -97,6 +94,21 @@
   stroke:#14848f;
 }
 
+
+.wording-row{
+  display:flex;
+  display: -webkit-flex;
+  justify-content: center;
+}
+
+.wth-wordings{
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  fill:#f6f3ea;
+  font-size:3rem;
+  padding:10px;
+}
 
 
 .SomeTxt{

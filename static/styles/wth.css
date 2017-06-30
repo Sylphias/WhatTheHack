@@ -150,6 +150,8 @@ html, body {
 
 .well {
   border-radius: 20px;
+  position: relative;
+  z-index: 999;
 }
 
 .wth-title {

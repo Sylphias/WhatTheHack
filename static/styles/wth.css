@@ -70,12 +70,23 @@
 /*<!---- Landing Page Section ---->*/
 
 html, body {
-height: 100%;
+  height: 100%;
 }
 
 .full {
+  padding: 0px;
   min-height: 100%;
   height: 100%;
+  width: 100%;
+}
+
+#dashed-line {
+  position: fixed;
+  height:100%;
+  top:0;
+  left: 50%;
+  border-left: 2px dashed #2f2521;
+  z-index: 5;
 }
 
 .landing-section{
@@ -98,11 +109,12 @@ height: 100%;
 }
 
 .logo-row > .logo-letter{
+  z-index: 99;
   display:inline;
   height:100%;
   margin: 0px 10px 0px 10px;
   fill:#e2443a;
-  stroke:#e2443a;`
+  stroke:#e2443a;
   stroke-miterlimit:10;
 }
 
@@ -127,4 +139,55 @@ height: 100%;
   color: white;
   width:0%;
   overflow:hidden;
+}
+
+#content-body {
+  padding-top: 100px;
+  min-height: 100%;
+  background: #f6f3ea;
+  display: block;
+}
+
+.well {
+  border-radius: 20px;
+}
+
+.wth-title {
+  background-color: red;
+  color: white;
+  font-size: 24px;
+}
+
+.wth-text {
+  background-color: white;
+  color: black;
+  font-size: 16px;;
+}
+
+.wth-title2 {
+  background-color: orange;
+  color: white;
+  font-size: 24px;
+}
+
+.wth-title3 {
+  background-color: green;
+  color: white;
+  font-size: 24px;
+}
+
+.panel-title > a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f055";
+    padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+    float: right !important;
+    content:"\f056";
+}
+.panel-title > a:hover, 
+.panel-title > a:active, 
+.panel-title > a:focus  {
+    text-decoration:none;
 }

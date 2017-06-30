@@ -5,6 +5,8 @@
     <!-- CSS LINKS-->
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/bootstrap.min.css') }}">
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/wth.css') }}">
+  <link rel= "stylesheet" type= "text/css" href= "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 
   <!--JAVASCRIPTS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -17,5 +19,16 @@
 <body>
 {% include 'navbar.html' %}
 {% include 'main_logo.html' %}
+<div id="dashed-line"></div>
+<div class="container full">
+  <div id="content-body">
+    {% include 'intro.html' %}
+    {% include 'problems_and_prizes.html' %}
+    {% include 'world_changing_tool.html' %}
+    {% include 'sponsors.html' %}
+    {% include 'faq.html' %}
+    {% include 'contact.html' %}
+  </div>
+</div>
 </body>
 </html>

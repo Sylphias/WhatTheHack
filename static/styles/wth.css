@@ -193,3 +193,119 @@ html, body {
 .panel-title > a:focus  {
     text-decoration:none;
 }
+
+.problems_and_prizes_header{
+  border-radius: 50px;
+  width: 80%;
+  height: 100px;
+  margin: auto;
+  font-size: 80px;
+  border-style: solid;
+  border-color: #E8A519;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  background-color: #E8A519;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.spaceimage{
+  height: 100%;
+  width: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.box_1 {
+  border-radius: 50px;
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  font-size: 20px;
+  border-style: solid;
+  border-color: yellow;
+  margin-bottom: 50px;
+  text-align: center;
+  color: black;
+  padding: 20px;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+ }
+
+.box_2 {
+   border-radius: 50px;
+   width: 80%;
+   height: 200px;
+   margin: auto;
+   font-size: 20px;
+   border-style: solid;
+   border-color: yellow;
+   margin-bottom: 50px;
+   text-align: center;
+   color: black;
+   padding: 20px;
+   background-color: white;
+   position: relative;
+   z-index: 10;
+   overflow: auto;
+ }
+
+.box_3 {
+  border-radius: 50px;
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  font-size: 20px;
+  border-style: solid;
+  border-color: yellow;
+  margin-bottom: 50px;
+  text-align: center;
+  color: black;
+  padding: 20px;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+  overflow: auto;
+}
+
+.box_4 {
+  border-radius: 50px;
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  font-size: 20px;
+  border-style: solid;
+  border-color: yellow;
+  margin-bottom: 50px;
+  text-align: center;
+  color: black;
+  padding: 20px;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+  overflow: auto;
+}
+
+.box_5 {
+  border-radius: 50px;
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  font-size: 20px;
+  border-style: solid;
+  border-color: yellow;
+  margin-bottom: 50px;
+  text-align: center;
+  color: black;
+  padding: 20px;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+  overflow: auto;
+}

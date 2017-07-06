@@ -37,10 +37,13 @@
   stroke:#14848f;
 }
 
-
-
 .SomeTxt{
   color: white;
   width:0%;
   overflow:hidden;
+}
+
+.World-Changing-Tools-container {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }

@@ -19,6 +19,7 @@
   color: rgba(255, 255, 255, 1);
   width:200px;
   padding-top: 5px;
+
 }
 
 #custom-bootstrap-menu.navbar-default {
@@ -32,8 +33,7 @@
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-nav>li {
-  padding-bottom: 5px;
-  padding: 0px 10px;
+  padding: 5px 10px;
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
@@ -75,9 +75,7 @@
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:active::before {
-
   background-color:#e2443a;
-
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
@@ -87,18 +85,19 @@
     font-weight: 400;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #2f2521;
+  border-color:#f6f3ea;
+
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #2f2521;
+  background-color: #2f2521;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: #2f2521;
+  background-color:#f6f3ea;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #2f2521;
+  
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-nav>.open>a, #custom-bootstrap-menu.navbar-default .navbar-nav>.open>a:focus, #custom-bootstrap-menu.navbar-default .navbar-nav>.open>a:hover 
@@ -107,30 +106,44 @@
 }
 
 
-
-hr {
-  height: .25rem;
-  width: 15%;
-  margin: 0;
-  background: tomato;
-  border: none;
-  transition: .3s ease-in-out;
-}
-
 h1,h2,p{
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: #f6f3ea;
+}
+/*<!---- Landing Page Section ---->*/
+
+html, body {
+  height: 100%;
 }
 
-/*<!---- Landing Page Section ---->*/
+.full {
+  padding: 0px;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+#dashed-line {
+  position: fixed;
+  height:100%;
+  top:0;
+  left: 50%;
+  border-left: 2px dashed #2f2521;
+  z-index: 5;
+}
+
 .landing-section{
+  position: relative;
   background-color: #2f2521;
-  height:100vh !important;
   padding-top: 100px;
+  height: 100%;
+  width: 100%;
   display: flex;
   display: -webkit-flex;
   -webkit-flex-direction: column; 
   flex-direction: column;
+  z-index: 20;
+  max-height: 1080px;
 }
 
 /*For the WHAT THE HACK words*/
@@ -148,10 +161,11 @@ h1,h2,p{
 }
 
 .logo-row > .logo-letter{
+  z-index: 99;
   display:inline;
   margin: 0px 10px 0px 10px;
   fill:#e2443a;
-  stroke:#e2443a;`
+  stroke:#e2443a;
   stroke-miterlimit:10;
 }
 
@@ -179,6 +193,7 @@ h1,h2,p{
   height:10vh;
   justify-content: center;
 }
+
 .wording-row >svg{
   height: 100%;
 }
@@ -221,6 +236,7 @@ h1,h2,p{
 
 .register-btn {
   margin-top: 60px;
+  min-width:300px;
   width: 20%;
   height: 75px;
   font-size: 5vw;
@@ -267,5 +283,72 @@ h1,h2,p{
 }
 
 
+#content-body {
+  padding-top: 100px;
+  min-height: 100%;
+  background: #f6f3ea;
+  display: block;
+}
 
+.well {
+  border-radius: 20px;
+  position: relative;
+  z-index: 999;
 
+}
+
+.maps-container{
+     position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.maps-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wth-title {
+  background-color: red;
+  color: white;
+  font-size: 24px;
+}
+
+.wth-text {
+  background-color: white;
+  color: black;
+  font-size: 16px;;
+}
+
+.wth-title2 {
+  background-color: orange;
+  color: white;
+  font-size: 24px;
+}
+
+.wth-title3 {
+  background-color: green;
+  color: white;
+  font-size: 24px;
+}
+
+.panel-title > a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f055";
+    padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+    float: right !important;
+    content:"\f056";
+}
+.panel-title > a:hover, 
+.panel-title > a:active, 
+.panel-title > a:focus  {
+    text-decoration:none;
+}

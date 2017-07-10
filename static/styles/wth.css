@@ -20,6 +20,7 @@
   width:200px;
   padding-top: 5px;
 }
+
 #custom-bootstrap-menu.navbar-default {
     padding-top: 10px;
     margin-bottom: 0px;
@@ -31,8 +32,8 @@
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-nav>li {
-  width:120px;
   padding-bottom: 5px;
+  padding: 0px 10px;
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
@@ -41,12 +42,42 @@
   font-weight: 200;
   text-align: center;
   padding:5px;
+  position: relative;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
   color: #f6f3ea;
   font-family: "montserrat",sans-serif;
   font-weight: 400;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a::before {
+  position:absolute;
+  left:0;
+  bottom:0;
+  padding: 0px 5px;
+  text-decoration: underline;
+  transform-origin: right top;
+  transform: scale(0, 1);
+  transition: color 0.1s,transform 0.2s ease-out;
+  content: '';
+  background-color:#e5a625;
+  display: block;
+    height: 3px;
+  width: 100%;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover::before,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus::before {
+
+  transform-origin: left top;
+  transform: scale(1, 1);
+
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:active::before {
+
+  background-color:#e2443a;
+
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
@@ -71,7 +102,6 @@
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-nav>.open>a, #custom-bootstrap-menu.navbar-default .navbar-nav>.open>a:focus, #custom-bootstrap-menu.navbar-default .navbar-nav>.open>a:hover 
-
 {
   background-color: rgba(47, 37, 33, 1);
 }
@@ -87,6 +117,10 @@ hr {
   transition: .3s ease-in-out;
 }
 
+h1,h2,p{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
 
 /*<!---- Landing Page Section ---->*/
 .landing-section{
@@ -172,6 +206,15 @@ hr {
     font-weight: 400;
 }
 
+/*Venue information*/
+.time-date-container{
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+/*landing Button Container*/
 .landing-btn-container{
   width: 100%;
 }
@@ -192,15 +235,12 @@ hr {
   padding: 0;
 
 }
-@media (min-width: 40em) {
-  .register-btn {
-    font-size: 2em;
-  }
-}
+
 
 .register-btn:focus, .register-btn:active {
   outline: none;
 }
+
 .register-btn .register-btn-inner {
   display: flex;
   justify-content: center;

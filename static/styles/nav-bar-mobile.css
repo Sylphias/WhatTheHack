@@ -11,4 +11,9 @@
 		background-color:#F9B741;
 		color:#f6f3ea;
 	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+    color: white;
+    background-color: #14848f;
+	}
 }

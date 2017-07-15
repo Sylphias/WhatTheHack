@@ -9,6 +9,8 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin-bottom: 3rem;
+	justify-content: center;
+	align-items:center;
 }
 
 .theme-container .theme-title{
@@ -18,13 +20,15 @@
 .theme-container .problem-themes > svg{
 	margin-top: 30px;
 	flex:1;
-	min-width:200px;
+	min-width:250px;
+	height:150px;
 }
 
 .prize-container{
 	flex:2;
 	display:flex;
-	min-width: 200px;
+	min-width: 280px;
+	max-width: 50%;
 	flex-direction: column;
 	text-align: center;
 }
@@ -58,8 +62,8 @@
 }
 
 .major-prize hr{
-	display: block;
-    width: 300px;
+	width:80%;
+	min-width:250;
 }
 
 .major-prize ul{

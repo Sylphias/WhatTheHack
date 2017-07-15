@@ -28,7 +28,7 @@
   <script type="text/javascript" src="{{ url_for('static',filename='scripts/anime.min.js') }}"></script>
   <script type="text/javascript" src="{{ url_for('static',filename='scripts/wth.js') }}"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <div class="container-fluid full">
   {% include 'navbar.html' %}

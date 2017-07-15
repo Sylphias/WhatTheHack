@@ -1,0 +1,122 @@
+.navbar-logo{
+  width:100%;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+  color: rgba(255, 255, 255, 1);
+  width:200px;
+  padding-top: 5px;
+
+}
+
+#custom-bootstrap-menu.navbar-default {
+    padding-top: 10px;
+    margin-bottom: 0px;
+    font-size: 1.8rem;
+    background-color: #483832;
+    border-width: 0px;
+    border-radius: 0px;
+    padding-right: 20px
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li {
+  padding: 5px 10px;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+  color: #f6f3ea;
+  font-family: "montserrat",sans-serif;
+  font-weight: 200;
+  text-align: center;
+  padding:5px;
+  position: relative;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+  color: #f6f3ea;
+  font-family: "montserrat",sans-serif;
+  font-weight: 400;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a::before {
+  position:absolute;
+  left:0;
+  bottom:0;
+  padding: 0px 5px;
+  text-decoration: underline;
+  transform-origin: right top;
+  transform: scale(0, 1);
+  transition: color 0.1s,transform 0.2s ease-out;
+  content: '';
+  background-color:#e5a625;
+  display: block;
+    height: 3px;
+  width: 100%;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover::before,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus::before {
+  transform-origin: left top;
+  transform: scale(1, 1);
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:active::before {
+  background-color:#e2443a;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    font-family: "montserrat",sans-serif;
+    font-weight: 700;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+  border-color:#f6f3ea;
+
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+  background-color: #2f2521;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+  background-color:#f6f3ea;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+  
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-nav>.open>a, #custom-bootstrap-menu.navbar-default .navbar-nav>.open>a:focus, #custom-bootstrap-menu.navbar-default .navbar-nav>.open>a:hover 
+{
+  background-color: rgba(47, 37, 33, 1);
+}
+
+.navbar-toggle{
+  margin-top:2px;
+  border:none;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 34px;
+    height: 4px;
+    border-radius: 1px;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 7px;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    background-color: #483832;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #483832;
+}

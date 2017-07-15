@@ -1,0 +1,10 @@
+#wc-image{
+	height: 200px;
+	min-width:200px;
+	margin:10px auto;
+}
+
+#wc-image > svg{
+	height: 100%;
+	width:100%;
+}

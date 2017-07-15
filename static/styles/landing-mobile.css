@@ -1,0 +1,21 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+  .landing-text{
+    font-size: 2rem !important;
+    margin-top: 10px;
+  }
+  .time-date-container {
+    margin-top: 2rem !important;
+    font-size: 1.5rem;
+  }
+    .register-btn-inner {
+    font-size: 2em;
+  }
+  .register-btn .register-btn-inner{
+    transform: translate3D(0, -10px, 0);
+  }
+  .logo-row{
+    margin:0px 10px;
+  }
+
+}

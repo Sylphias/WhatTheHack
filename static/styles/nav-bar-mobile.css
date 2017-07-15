@@ -1,0 +1,14 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	/* Styles */
+
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+		color:#f6f3ea;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:active,
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+		background-color:#F9B741;
+		color:#f6f3ea;
+	}
+}

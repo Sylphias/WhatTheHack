@@ -1,0 +1,67 @@
+.theme-container{
+	margin-top:2rem;
+	flex-direction: row;
+	width:100%;
+	
+}
+.theme-container > div{
+	margin-top:3rem;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 3rem;
+}
+
+.theme-container .theme-title{
+	font-size:1.5em;
+}
+
+.theme-container .problem-themes > svg{
+	margin-top: 30px;
+	flex:1;
+	min-width:200px;
+}
+
+.prize-container{
+	flex:2;
+	display:flex;
+	min-width: 200px;
+	flex-direction: column;
+	text-align: center;
+}
+
+.prize-container .svg-container{
+	margin:10px auto;
+	width: 100px;
+	min-width: 100px;
+}
+
+.prize-container ul{
+	text-align: left;
+}
+
+.prize-container p{
+	color:black;
+	margin-top:10px;
+}
+
+.prize-container hr{
+	margin: 0px 20px;
+}
+
+.major-prize{
+	flex:2;
+	width:50%;
+	padding:5px 20px;
+	min-width: 200px;
+	justify-content: center;
+    align-items: center;
+}
+
+.major-prize hr{
+	display: block;
+    width: 300px;
+}
+
+.major-prize ul{
+	display:block;
+}

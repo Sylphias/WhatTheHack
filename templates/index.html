@@ -1,12 +1,21 @@
 <html>
 <head>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="shortcut icon" href="{{ url_for('static',filename='assets/wth_favicon.ico') }}" type="image/x-icon" />
   <!-- CSS LINKS-->
+
+  <!-- Non Mobile CSS -->
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/bootstrap.min.css') }}">
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/wth.css') }}">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/landing.css') }}">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/nav-bar.css') }}">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/prizesproblems.css') }}">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/world-changing.css') }}">
+  <!-- Mobile CSS -->
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/landing-mobile.css') }}">
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/wth-mobile.css') }}">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/nav-bar-mobile.css') }}">
+
   
   <!-- hello kai, placeholder cdn, when u see this just dl font awesome LOLLLLLL -->
   <link rel= "stylesheet" type= "text/css" href= "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -18,7 +27,6 @@
   <script type="text/javascript" src="{{ url_for('static',filename='scripts/bootstrap.min.js') }}"></script>
   <script type="text/javascript" src="{{ url_for('static',filename='scripts/anime.min.js') }}"></script>
   <script type="text/javascript" src="{{ url_for('static',filename='scripts/wth.js') }}"></script>
-
 </head>
 <body>
 
@@ -31,8 +39,8 @@
     {% include 'problems_and_prizes.html' %}
     {% include 'world_changing_tool.html' %}
     {% include 'sponsors.html' %}
-    {% include 'faq.html' %}
     {% include 'contact.html' %}
+    {% include 'faq.html' %}
   </div>
 </div>
 </body>

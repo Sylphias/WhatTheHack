@@ -44,10 +44,12 @@ $(function(){
           event.preventDefault();
           $('html, body').animate({
             scrollTop: target.offset().top
-          }, 1000, function() {
-            $('.navbar-toggle').click(); // close the menu when selection has been made
+          }, 500, function() {
             // Callback after animation
             // Must change focus!
+            if($('.navbar-toggle').is(':visible')){
+              $('.navbar-toggle').click(); // close the menu when selection has been made
+            }
             var $target = $(target);
             $target.focus();
             if ($target.is(":focus")) { // Checking if the target was focused

@@ -9,6 +9,7 @@
   -webkit-flex-direction: column; 
   flex-direction: column;
   z-index: 20;
+  min-height: 700px;
   max-height: 1080px;
 }
 

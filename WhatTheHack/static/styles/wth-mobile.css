@@ -1,42 +1,4 @@
-/*@media (min-width: 40em) {
-  .register-btn {
-    font-size: 2em;
-  }
 
-   .landing-text{
-    font-size: 2rem !important;
-    margin-top: 10px;
-  }
-  .time-date-container {
-    margin-top: 2rem !important;
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (min-width:375) and (max-width:1024px){
-  .landing-text{
-  	font-size: 2rem !important;
-    margin-top: 10px;
-  }
-  .time-date-container {
-    margin-top: 2rem !important;
-    font-size: 1.5rem;
-	}*/
-/*}*/
-
-
-/* Portrait and Landscape */
-/*@media only screen and (min-width: 375px) 
-  and (max-device-width: 667px) 
- { 
-
-}
-
- /*Portrait and Landscape */
-/*@media(min-width: 768px) 
-  and (max-width: 1024px) {
-
-}*/
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
@@ -47,5 +9,11 @@
   .wth-text{
     font-size:1.5rem;
     margin:10px;
+  }
+}
+
+@media only screen and (min-device-width:768) and (max-device-width:1024){
+  .col-md-8{
+    margin: 0px 20px;
   }
 }

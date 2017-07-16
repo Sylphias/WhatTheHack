@@ -92,8 +92,8 @@ b{
 
 .text-flex{
   font-family: "montserrat", sans-serif;
-  display: -webkit-flex;
-  display: flex;
+  /*display: -webkit-flex;*/
+  /*display: flex;*/
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   padding:50px ;

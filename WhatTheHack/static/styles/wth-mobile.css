@@ -4,11 +4,12 @@
 /* Styles */
   .wth-title{
     font-size:2rem;
-    margin:10px;
   }
   .wth-text{
     font-size:1.5rem;
-    margin:10px;
+  }
+  .text-flex{
+    padding:50px 25px;
   }
 }
 

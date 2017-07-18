@@ -22,9 +22,9 @@ h1,h2,p{
 }
 /*<!---- Landing Page Section ---->*/
 
-html, body {
+
+html,body {
   height: 100%;
-  overflow-x: hidden;
 }
 
 div{

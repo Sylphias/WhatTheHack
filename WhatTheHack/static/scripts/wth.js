@@ -21,7 +21,12 @@ $(function(){
     duration:500,
     easing: 'easeInOutQuad'
   });
-
+  $(".qns-container").click(function(event){
+    event.preventDefault();
+    console.log($(this).children(".dropdown").checked)
+    $(this).children(".dropdown").prop("checked",!$(this).children(".dropdown").prop("checked"))
+    $(this).parent().find(".faq-answers").toggleClass("faq-appear");
+  });
   // Taken from CSS-Tricks
   // Select all links with hashes
   $('a[href*="#"]')

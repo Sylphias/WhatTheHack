@@ -27,3 +27,6 @@ flask run
  * Running on http://127.0.0.1:5000/
 
  ```
+
+## Compression and minification of assets
+This application uses [flask-assets](https://flask-assets.readthedocs.io/en/latest/) to perform asset bundling and minification. 

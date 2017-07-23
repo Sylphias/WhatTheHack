@@ -1,0 +1,45 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .tier-container{
+        padding:20px ;
+    }
+
+    .sponsor-container.platinum{
+
+        margin:5px;
+
+    }
+    .sponsor-container.gold{
+
+        margin:5px;
+    }
+    .sponsor-container.silver{
+
+        margin:5px;
+    }
+    .sponsor-container.bronze{
+        margin:5px;
+    }
+}
+
+@media only screen and (min-device-width:768) and (max-device-width:1024){
+    .tier-container{
+        padding:20px;
+    }
+    .sponsor-container.platinum{
+
+        margin:10px;
+    }
+    .sponsor-container.gold{
+
+        margin:10px;
+
+    }
+    .sponsor-container.silver{
+
+        margin:10px;
+
+    }
+    .sponsor-container.bronze{
+        margin:10px;
+    }
+}

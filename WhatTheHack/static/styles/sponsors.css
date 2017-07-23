@@ -1,0 +1,42 @@
+.sponsor-header{
+    width:100%;
+    height: 50px;
+    text-align: center;
+    font-weight:700;
+}
+
+.tier-container{
+    padding:20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sponsor-container.platinum{
+    min-width:200px;
+    max-width:60%;
+    flex:1;
+}
+.sponsor-container.gold{
+    min-width:200px;
+    max-width:40%;
+    flex:1;
+}
+.sponsor-container.silver{
+    min-width:200px;
+    max-width:30%;
+    flex:1;
+}
+.sponsor-container.bronze{
+    min-width:200px;
+    max-width:20%;
+    margin:20px;
+    flex:1;
+}
+
+.sponsor-container > .sponsor-img{
+    max-width: 100%;
+    height:auto;
+}
+

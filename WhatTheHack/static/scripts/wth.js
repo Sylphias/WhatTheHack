@@ -23,7 +23,6 @@ $(function(){
   });
   $(".qns-container").click(function(event){
     event.preventDefault();
-    console.log($(this).children(".dropdown").checked)
     $(this).children(".dropdown").prop("checked",!$(this).children(".dropdown").prop("checked"))
     $(this).parent().find(".faq-answers").toggleClass("faq-appear");
   });

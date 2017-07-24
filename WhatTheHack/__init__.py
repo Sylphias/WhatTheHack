@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 from flask_assets import Environment, Bundle
+import os
 app = Flask(__name__)
 assets = Environment(app)
 
@@ -31,7 +32,9 @@ js_bundle = Bundle(
 assets.register('js_all',js_bundle)
 app.config['ASSETS_DEBUG'] = False
 app.config['DEBUG'] = False
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
 
 @app.route('/')
 def index():
     return render_template('index.html')
+

@@ -19,6 +19,11 @@
     .sponsor-container.bronze{
         margin:5px;
     }
+    .sponsor-container > .sutd{
+    padding:20px;
+
+    }
+
 }
 
 @media only screen and (min-device-width:768) and (max-device-width:1024){
@@ -41,5 +46,9 @@
     }
     .sponsor-container.bronze{
         margin:10px;
+    }
+    .sponsor-container > .sutd{
+        padding:20px;
+
     }
 }

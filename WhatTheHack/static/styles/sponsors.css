@@ -20,12 +20,12 @@
 }
 .sponsor-container.gold{
     min-width:200px;
-    max-width:40%;
+    max-width:35%;
     flex:1;
 }
 .sponsor-container.silver{
     min-width:200px;
-    max-width:30%;
+    max-width:25%;
     flex:1;
 }
 .sponsor-container.bronze{
@@ -40,3 +40,6 @@
     height:auto;
 }
 
+.sponsor-container > .sutd{
+    padding:50px;
+}

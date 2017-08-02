@@ -1,2 +1,2 @@
 *.pyc
-./WhatTheHack/static/.webassets-cache
+WhatTheHack/static/.webassets-cache

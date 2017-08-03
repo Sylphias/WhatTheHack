@@ -10,7 +10,7 @@ https://www.python.org/downloads/windows/
 Flask will be our microframework that will serve as the backend of this application.
 A full guide can be found here http://flask.pocoo.org/docs/0.12/installation/
 
-` pip install flask `
+`pip install flask flask-assets cssmin`
 
 If you have issues installing flask, feel free to use codepen to do your code first then send me a link and I will do the integration into the whole application.
 
@@ -23,10 +23,11 @@ Once you have installed and done the necessary setup for the applications, you c
 You will need to run the following 
 ```
 export FLASK_APP=main.py
+export FLASK_DEBUG=1
 flask run
  * Running on http://127.0.0.1:5000/
-
  ```
+The `FLASK_DEBUG=1` makes the server auto-restart when you make changes.
 
 ## Compression and minification of assets
 This application uses [flask-assets](https://flask-assets.readthedocs.io/en/latest/) to perform asset bundling and minification. 

@@ -1,0 +1,42 @@
+.workshop-container{
+	flex:2;
+	display:flex;
+  min-height: 350px;
+	min-width: 280px;
+	max-width: 50%;
+	flex-direction: column;
+	text-align: center;
+}
+
+.workshop-container .svg-container{
+	margin:10px auto;
+	width: 100px;
+	min-width: 100px;
+}
+
+.workshop-container li{
+	list-style: none;
+}
+
+.workshop-container ul{
+	text-align: left;
+}
+
+.workshop-container p{
+	color:black;
+	margin-top:10px;
+}
+
+.workshop-container hr{
+	margin: 0px 20px;
+}
+
+.workshop-container svg{
+  height: 75px;
+  width: auto;
+}
+
+#workshops .description {
+  color: black;
+  text-align: center;
+}

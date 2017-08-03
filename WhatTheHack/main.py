@@ -12,11 +12,13 @@ css_bundle = Bundle(
     'styles/nav-bar.css',
     'styles/prizesproblems.css',
     'styles/sponsors.css',
+    'styles/workshops.css',
     'styles/world-changing.css',
     'styles/wth-mobile.css',
     'styles/landing-mobile.css',
     'styles/nav-bar-mobile.css',
     'styles/prizesproblems-mobile.css',
+    'styles/workshops-mobile.css',
 filters='cssmin',output='gen/styles.css')
 assets.register('css_all',css_bundle)
 
@@ -46,4 +48,3 @@ def autoversion_filter(filename):
 @app.route('/')
 def index():
     return render_template('index.html')
-

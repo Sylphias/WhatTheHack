@@ -8,17 +8,18 @@ css_bundle = Bundle(
     'styles/bootstrap.min.css',
     'styles/wth.css',
     'styles/faq.css',
+    'styles/landing-mobile.css',
     'styles/landing.css',
+    'styles/loader.css',
+    'styles/nav-bar-mobile.css',
     'styles/nav-bar.css',
+    'styles/prizesproblems-mobile.css',
     'styles/prizesproblems.css',
     'styles/sponsors.css',
+    'styles/workshops-mobile.css',
     'styles/workshops.css',
     'styles/world-changing.css',
     'styles/wth-mobile.css',
-    'styles/landing-mobile.css',
-    'styles/nav-bar-mobile.css',
-    'styles/prizesproblems-mobile.css',
-    'styles/workshops-mobile.css',
 filters='cssmin',output='gen/styles.css')
 assets.register('css_all',css_bundle)
 

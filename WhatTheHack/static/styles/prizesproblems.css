@@ -31,6 +31,7 @@
 	max-width: 50%;
 	flex-direction: column;
 	text-align: center;
+	align-items: center;
 }
 
 .prize-container .svg-container{
@@ -68,4 +69,23 @@
 
 .major-prize ul{
 	display:block;
+}
+
+.sponsor-prize-container{
+    min-width:100px;
+    max-width:150px;
+    flex:1;
+
+}
+
+.sponsor-prize-container .sponsor-prize-img{
+    width: 100%;
+    max-width: 100%;
+    height:auto;
+    margin:5px auto;
+}
+
+
+#software-prize{
+	margin-top: 30px;
 }

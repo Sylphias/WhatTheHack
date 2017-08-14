@@ -76,10 +76,14 @@
 }
 
 .sponsor-prize-container{
-    min-width:300px;
+    min-width:150px;
     max-width: 40%;
     max-height: 100px;
     flex:1;
+}
+
+.major-prize{
+	min-width:300px;
 }
 
 .arrange-items{

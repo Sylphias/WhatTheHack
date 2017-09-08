@@ -11,6 +11,6 @@
   justify-content: center;
   position: fixed;
   width: 100%;
-  z-index: 1031; /* to whoever made the navbar z-index 1030, wtf? */
+  z-index: 1031; 
 }
 

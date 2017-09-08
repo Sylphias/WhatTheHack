@@ -4,7 +4,11 @@
   text-transform: uppercase;
 }
 
+#schedule .day {
+  width: 80px;
+}
+
 #schedule .timing {
-  width: 30%;
+  width: 120px;
 }
 

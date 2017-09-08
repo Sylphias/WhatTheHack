@@ -1,0 +1,10 @@
+#schedule h3 {
+  margin: 20px auto;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+#schedule .timing {
+  width: 30%;
+}
+

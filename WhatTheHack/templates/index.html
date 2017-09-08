@@ -13,8 +13,8 @@
     <script type="text/javascript" src="{{ ASSET_URL }}"></script>
   {% endassets %}
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-
+<body class="loading" data-spy="scroll" data-target=".navbar" data-offset="50">
+{% include 'loader.html' %}
 <div class="container-fluid full">
   {% include 'navbar.html' %}
   {% include 'main_logo.html' %}
@@ -24,6 +24,7 @@
     {% include 'problems_and_prizes.html' %}
     {% include 'world_changing_tool.html' %}
     {% include 'workshops.html' %}
+    {% include 'schedule.html' %}
     {% include 'sponsors.html' %}
     {% include 'faq.html' %}
     {% include 'contact.html' %}

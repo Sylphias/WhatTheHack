@@ -15,6 +15,7 @@ css_bundle = Bundle(
     'styles/nav-bar.css',
     'styles/prizesproblems-mobile.css',
     'styles/prizesproblems.css',
+    'styles/schedule.css',
     'styles/sponsors.css',
     'styles/workshops-mobile.css',
     'styles/workshops.css',

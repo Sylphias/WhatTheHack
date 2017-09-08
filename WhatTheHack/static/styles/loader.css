@@ -1,0 +1,16 @@
+.loader {
+  display: none;
+}
+
+.loading .loader {
+  align-items: center;
+  background: #2F2521;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1031; /* who the hell made z-index 1030??? */
+}
+

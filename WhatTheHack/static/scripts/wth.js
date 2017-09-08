@@ -1,4 +1,6 @@
 $(function(){
+  $('body').removeClass('loading');
+
   var wthTimeline = anime.timeline();
   wthTimeline
     .add({
@@ -21,6 +23,7 @@ $(function(){
     duration:500,
     easing: 'easeInOutQuad'
   });
+
   $(".qns-container").click(function(event){
     event.preventDefault();
     $(this).children(".dropdown").prop("checked",!$(this).children(".dropdown").prop("checked"))
@@ -66,9 +69,6 @@ $(function(){
         }
       }
     });
-
-
-
 }
 
 )

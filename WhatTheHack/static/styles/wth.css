@@ -165,3 +165,8 @@ b{
     max-height: 400px;
 }
 
+.caveat{
+  text-align: center;
+  font-size:1rem;
+  color: black;
+}

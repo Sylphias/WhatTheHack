@@ -22,6 +22,7 @@ css_bundle = Bundle(
     'styles/workshops.css',
     'styles/world-changing.css',
     'styles/prizesproblems-mobile.css',
+    'styles/workshops-mobile.css',
 filters='cssmin',output='gen/styles.css')
 assets.register('css_all',css_bundle)
 

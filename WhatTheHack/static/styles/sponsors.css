@@ -45,7 +45,7 @@
 }
 .sponsor-container.bronze{
     min-width:75px;
-    max-width:10%;
+    max-width:15%;
     margin:20px;
     flex:1;
 }

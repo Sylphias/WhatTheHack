@@ -4,6 +4,7 @@
 	width:100%;
 	
 }
+
 .theme-container > div{
 	margin-top:3rem;
 	display: flex;
@@ -31,6 +32,7 @@
 	max-width: 50%;
 	flex-direction: column;
 	text-align: center;
+	align-items: center;
 }
 
 .prize-container .svg-container{
@@ -51,16 +53,18 @@
 .prize-container hr{
 	margin: 0px 20px;
 }
-
+.prize-info{
+	margin: 0px 10px;
+}
 .major-prize{
 	flex:2;
-	width:50%;
+	width:100%;
 	padding:5px 20px;
-	min-width: 200px;
+	min-width: 300px;
+	max-width: 100%;
 	justify-content: center;
     align-items: center;
 }
-
 .major-prize hr{
 	width:80%;
 	min-width:250;
@@ -68,4 +72,33 @@
 
 .major-prize ul{
 	display:block;
+}
+
+.sponsor-prize-container{
+    min-width:150px;
+    max-width: 40%;
+    max-height: 100px;
+    flex:1;
+}
+
+.major-prize-logos{
+	min-width:300px;
+}
+
+.arrange-items{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.sponsor-prize-container > .arrange-items a{
+	flex:1;
+	margin: 5px 10px;
+}
+
+.sponsor-prize-container .sponsor-prize-img{
+    max-width: 100%;
+    height:auto;
+    margin:5px 10px;
+    float: right;
 }
